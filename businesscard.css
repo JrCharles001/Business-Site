@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background: #0078d4;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+.business-card {
+    width: 350px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #ccc;
+    padding: 24px;
+    margin: 40px auto;
+}
+.banner {
+    background: #0078d4;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.name {
+    font-size: 22px;
+    font-weight: bold;
+    color: #0078d4;
+}
+.role {
+    color: #b13e3e;
+    margin-bottom: 12px;
+}
+.contact {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 16px;
+}
+.social {
+    display: flex;
+    gap: 12px;
+}
+.social a {
+    background: #ccc;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+}
+.social .facebook { background: #4267B2; }
+.social .twitter { background: #010f18; }
+.social .instagram { background: #E1306C; }
+.profile-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #0078d4;
+    display: inline-block;
+}
